@@ -27,7 +27,7 @@ const Import: React.FC = () => {
 
     if (!uploadedFiles) return;
 
-    uploadedFiles.forEach((uploadedFile) => {
+    uploadedFiles.forEach(uploadedFile => {
       data.append('file', uploadedFile.file);
     });
 

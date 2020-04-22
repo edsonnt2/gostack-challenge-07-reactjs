@@ -98,7 +98,7 @@ const Dashboard: React.FC = () => {
             </thead>
 
             <tbody>
-              {transactions.map((transaction) => {
+              {transactions.map(transaction => {
                 const numberFormateded = formatValue(Number(transaction.value));
                 return (
                   <tr key={transaction.id}>
